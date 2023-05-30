@@ -1,0 +1,129 @@
+/* Home */
+
+#header{
+    background-color: rgb(54, 54, 54);
+    padding: 2%;
+    display: flex;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp2328266.jpg);
+    background-position: center;
+    height: 1500px;
+}
+
+#menu{
+    margin-left: 50%;
+    margin-top: 1%;
+    background-color: rgb(95, 95, 95);
+    padding-top: 0.8%;
+    width: 500px;
+}
+
+.azul:hover{
+    color: rgb(201, 201, 242);
+}
+
+.roxo:hover{
+    color: rgb(169, 129, 177);
+}
+
+.vermelho:hover{
+    color: rgb(190, 120, 135);
+}
+
+.verde:hover{
+    color: rgb(157, 199, 185);
+}
+.dec{
+    text-decoration: none;
+    color: white;
+    padding-left: 9%;
+}
+
+.w-200{
+    width: 200px;
+}
+
+.b-shadow-cold{
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5), 10px -10px 25px 0px rgba(0, 0, 0, 0.5);
+}
+
+.b-shadow-cold:hover{
+    box-shadow: 0px 5px 25px 10px rgba(0, 0, 0, 0.5), 0px -5px 25px 10px rgba(0, 0, 0, 0.5);
+}
+
+#games{
+    margin-left: 4.5%;
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+}
+
+#games a{
+    justify-content: center;
+    align-items: center;
+}
+
+#games a:empty{
+    visibility: hidden;
+}
+
+.m-left{
+    margin-left: 8%;
+}
+
+.m-top{
+    margin-top: 12%;
+}
+
+.h-285{
+    height: 285px;
+}
+
+/* Games */
+
+.p-top-3{
+    padding-top: 3%;
+}
+
+.c-white{
+    color: white;
+}
+
+.b-shadow-x{
+    box-shadow: 10px 10px 25px 0px rgb(56, 86, 168), 10px -10px 25px 0px rgb(136, 56, 168);
+}
+
+.b-shadow-y{
+    box-shadow: 10px 10px 25px 0px rgb(56, 168, 99), 10px -10px 25px 0px rgb(168, 56, 93);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.b-color{
+    background-color: rgba(54, 54, 54, 0.555);
+}
+
+.m-bottom-p{
+    margin-bottom: 3.4%;
+}
+
+.w-83{
+    width: 83%;
+}
+
+.m-left-9{
+    margin-left: 9%;
+}
+
+.trailer-txt{
+    height: 100%;
+    padding-top: 5px;
+}
+
+.p-bottom{
+    padding-bottom: 2.5%;
+}
