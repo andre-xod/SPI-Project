@@ -17,7 +17,7 @@ body{
     margin-top: 1%;
     background-color: rgb(95, 95, 95);
     padding-top: 0.8%;
-    width: 500px;
+    width: 100%;
 }
 
 .azul:hover{
@@ -45,17 +45,16 @@ body{
     width: 200px;
 }
 
-.b-shadow-cold{
+.b-shadow{
     box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5), 10px -10px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
-.b-shadow-cold:hover{
+.b-shadow:hover{
     box-shadow: 0px 5px 25px 10px rgba(0, 0, 0, 0.5), 0px -5px 25px 10px rgba(0, 0, 0, 0.5);
 }
 
 #games{
     margin-left: 4.5%;
-    padding-top: 3%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
 }
@@ -92,11 +91,7 @@ body{
 }
 
 .b-shadow-x{
-    box-shadow: 10px 10px 25px 0px rgb(56, 86, 168), 10px -10px 25px 0px rgb(136, 56, 168);
-}
-
-.b-shadow-y{
-    box-shadow: 10px 10px 25px 0px rgb(56, 168, 99), 10px -10px 25px 0px rgb(168, 56, 93);
+    box-shadow: 10px 10px 25px 0px rgb(56, 86, 168);
 }
 
 .d-flex{

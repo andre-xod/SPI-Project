@@ -10,64 +10,17 @@
 </head>
 
 <body>
-    <header class="custom-header">
-            <nav class="navbar bg-dark" data-bs-theme="dark">
-            <div class="container d-flex justify-content-between align-items-center">
-                <div class="logo">
-                    <a href="/index.html">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/PlayStation_2_logo.svg/2560px-PlayStation_2_logo.svg.png" class="w-200">
-                    </a>
-                </div>
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                    </ul>
-                    <span class="navbar-text">
-                        Navbar text with an inline element
-                    </span>
-                </div>
-            </div>
-        </nav>
-    </header>
-                    </a>
-                </div>
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                    </ul>
-                    <span class="navbar-text">
-                        Navbar text with an inline element
-                    </span>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <div id="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/PlayStation_2_logo.svg/2560px-PlayStation_2_logo.svg.png" class="w-200">
+
+        <div id="menu">
+            <a href="./index.html" class="dec azul f-size">Home</a>
+            <a href="./console.html" class="dec roxo f-size">Console</a>
+            <a href="./history.html" class="dec vermelho f-size">History</a>
+            <a href="./contacts.html" class="dec verde f-size">Contacts</a>
+        </div>
+    </div>
+    
     <div id="games"></div>
 </body>
 
@@ -90,7 +43,7 @@
             img.src = jogo['capa'];
             img.classList.add('w-200');
             img.classList.add('h-285');
-            img.classList.add('b-shadow-cold');
+            img.classList.add('b-shadow');
             img.classList.add('m-top');
 
             let a = document.createElement('a');
