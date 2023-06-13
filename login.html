@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>History</title>
+    <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./static/css/style.css">
 </head>
@@ -13,7 +13,7 @@
     <div id="header" class="rounded-5 rounded-top-0">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/PlayStation_2_logo.svg/2560px-PlayStation_2_logo.svg.png" class="w-200">
 
-        <div class="before-menu rounded-pill ml">
+        <div class="before-menu rounded-pill">
             <a href="./login.html" class="dec azul f-size">Login</a>
             <a href="./register.html" class="dec vermelho f-size">Register</a>
         </div>
@@ -25,6 +25,22 @@
             <a href="./contacts.html" class="dec verde f-size">Contacts</a>
         </div>
     </div>
+    
+    <form class="rounded-5 form h-350 m-block" action="index.html" method="get">
+        <h1 class="h1-login">Login</h1>
+        <div class="f-align">
+            <input class="i-email" type="email" placeholder="Email" required>
+            
+            <input class="i-pass" type="password" placeholder="Password"><br>
+
+            <input class="c-box" type="checkbox">
+            <label class="remember-me" >Remember me</label>
+
+            <a class="rl-account" href="./register.html"><i>Don't have an account?</i></a>
+            
+            <button type="submit" class="btn btn-primary login-btn">Login</button>
+        </div>
+    </form>
 
     <div id="footer" class="c-white rounded-0 rounded-top-5">
         <p class="f-text rounded-pill">

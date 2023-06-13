@@ -4,20 +4,88 @@
     background-color: rgb(54, 54, 54);
     padding: 2%;
     display: flex;
+    width: 90%;
+    margin-left: 5%;
+    animation: shadow-animation 4s infinite;
 }
+
+#footer{
+    background-color: rgb(54, 54, 54);
+    box-shadow: 0px -5px 10px 0px rgb(56, 86, 168);
+    padding-block: 1%;
+    display: flex;
+    left: 0;
+    width: 90%;
+    margin-left: 5%;
+    flex-direction: column;
+    align-items: center;
+    animation: shadow-animation 4s infinite;
+}
+
+
+#footer::after{
+    content: "";
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+@keyframes shadow-animation {
+    0% {
+        box-shadow: 0 0 10px rgb(56, 86, 168);
+    }
+    25% {
+        box-shadow: 0 0 10px rgb(146, 56, 168);
+    }
+    50% {
+        box-shadow: 0 0 10px rgb(168, 73, 56);
+    }
+    75% {
+        box-shadow: 0 0 10px rgb(56, 168, 65);
+    }
+    100% {
+        box-shadow: 0 0 10px rgb(56, 86, 168);
+    }
+  }
 
 body{
     background-image: url(https://wallpapercave.com/wp/wp2328266.jpg);
     background-position: center;
-    height: 1500px;
+    height: 100%;
+}
+
+#d-text{
+    margin-bottom: 2%;
+    color: white;
+    margin-top: 2%;
+    margin-left: 6%;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.f-text{
+    background-color: rgb(95, 95, 95);
+    padding: 1%;
 }
 
 #menu{
-    margin-left: 50%;
+    margin-left: 3%;
     margin-top: 1%;
     background-color: rgb(95, 95, 95);
-    padding-top: 0.8%;
+    padding-top: 0.9%;
     width: 100%;
+}
+
+.before-menu{
+    margin-left: 26%;
+    margin-top: 1%;
+    background-color: rgb(95, 95, 95);
+    padding-top: 0.9%;
+    width: 35%;
+    padding-inline: 2%;
 }
 
 .azul:hover{
@@ -80,7 +148,86 @@ body{
     height: 285px;
 }
 
-/* Games */
+/* Login & Register */
+
+.form{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    box-shadow: 0px 5px 20px 0px rgb(0, 0, 0, 0.5);
+    width: 400px;
+    margin-block: 2.4%;
+    margin-left: 35%;
+}
+
+.m-block{
+    margin-block: 4.3%;
+}
+
+.h-400{
+    height: 400px;
+}
+
+.h-350{
+    height: 350px;
+}
+
+.h-400px{
+    height: 400px;
+}
+
+.login-btn{
+    width: 80%; 
+    margin-left: 5%; 
+    margin-top: 7%; 
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.801);
+}
+
+.h1-login{
+    margin-left: 35%; 
+    padding-top: 4%;
+}
+
+.h1-register{
+    margin-left: 31.5%;
+    padding-top: 4%;
+}
+
+.f-align{
+    margin-left: 10%;
+    padding-top: 3%;
+}
+
+.i-email{
+    padding: 2%;
+    margin-bottom: 5%; 
+    width: 88%;
+}
+
+.i-pass{
+    padding: 2%; 
+    width: 88%;
+}
+
+.c-box{
+    margin-left: 5%; 
+    margin-top: 12%;
+}
+
+.remember-me{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.rl-account{
+    font-size: 12px;
+    margin-left: 17%;
+}
+
+.m-bot-5{
+    margin-bottom: 5%;
+}
+
+/* Wiki */
 
 .p-top-3{
     padding-top: 3%;
